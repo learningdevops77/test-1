@@ -15,7 +15,7 @@ pipeline{
 		stage('Compile'){
 			steps{
 				sh 'mvn compile'
-				#updated
+				
 			}
 		}		
 		stage('Build'){
