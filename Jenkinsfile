@@ -9,7 +9,7 @@ pipeline{
 	stages{
 		stage('Git checkout'){
 			steps{
-				git branch: 'main', url: 'https://github.com/learningdevops77/reimagined-journey.git'
+				git branch: 'feature-xyz', url: 'https://github.com/learningdevops77/test-1.git'
 			}
 		}
 		stage('Compile'){
